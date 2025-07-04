@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechNova Solutions</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Font override -->
+    <style>
+      h1,
+      h2,
+      h3,
+      h4 {
+        font-family: "Orbitron", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-900 text-gray-200 font-sans">
+    <!-- Navbar -->
+    <header class="bg-gray-800 shadow-md sticky top-0 z-50">
+      <div
+        class="max-w-7xl mx-auto px-4 py-5 flex justify-between items-center"
+      >
+        <div class="flex items-center space-x-3">
+          <a href="#" class="flex items-center space-x-3">
+            <img
+              src="./Assets/Image/Gambar.png"
+              alt="Logo"
+              class="h-12 w-auto"
+            />
+            <span class="text-xl font-bold text-cyan-400"
+              >TechNova Solutions</span
+            >
+          </a>
+        </div>
+
+        <nav class="space-x-6">
+          <a
+            href="#Home"
+            class="transition duration-300 ease-in-out hover:text-cyan-400"
+            >Home</a
+          >
+          <a
+            href="#profile"
+            class="transition duration-300 ease-in-out hover:text-cyan-400"
+            >Our Profile</a
+          >
+          <a
+            href="#portfolio"
+            class="transition duration-300 ease-in-out hover:text-cyan-400"
+            >Portfolio</a
+          >
+          <a
+            href="#contact"
+            class="transition duration-300 ease-in-out hover:text-cyan-400"
+            >Message Us</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      class="bg-gradient-to-br from-gray-900 via-blue-900 to-black py-24 text-center text-white"
+    >
+      <h2 class="text-5xl font-extrabold tracking-tight">
+        Powering the Next-Gen Gaming Experience
+      </h2>
+      <p class="mt-4 text-xl text-blue-300 max-w-2xl mx-auto">
+        Kami membangun software dan solusi digital yang mendukung industri game
+        dan teknologi.
+      </p>
+    </section>
+
+    <!-- Home Section -->
+    <section id="Home" class="bg-gray-800 py-16 px-6 text-left">
+      <div class="max-w-4xl mx-auto">
+        <h3 id="welcomeText" class="text-3xl font-bold text-cyan-400 mb-4"></h3>
+        <p class="text-gray-400 mb-6">Ini adalah website latihan pertama.</p>
+        <div class="flex justify-center">
+          <img
+            src="./Assets/Image/design-modern-1366x578.jpg"
+            class="rounded-lg shadow-xl max-w-full h-auto"
+            alt="Desain Modern"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Profile Section -->
+    <section id="profile" class="bg-gray-900 text-white py-20 px-6">
+      <h3 class="text-3xl font-bold text-center text-cyan-400 mb-12">
+        About TechNova
+      </h3>
+      <div class="max-w-5xl mx-auto text-center space-y-6">
+        <p class="text-gray-300">
+          TechNova Solutions adalah perusahaan berbasis teknologi yang fokus
+          pada pengembangan aplikasi dan platform gaming.
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+          <div>
+            <h4 class="text-xl font-semibold text-blue-400 mb-2">Visi</h4>
+            <p class="text-gray-400">
+              Menjadi pelopor dalam inovasi teknologi digital dan gaming di
+              Asia.
+            </p>
+          </div>
+          <div>
+            <h4 class="text-xl font-semibold text-blue-400 mb-2">Misi</h4>
+            <ul class="list-disc list-inside text-gray-400 space-y-2">
+              <li>
+                Mengembangkan software gaming yang responsif dan scalable.
+              </li>
+              <li>Memberikan solusi teknologi yang imersif dan interaktif.</li>
+              <li>Berinovasi bersama komunitas gaming global.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Headquarter -->
+    <section id="services" class="bg-gray-800 py-16 px-6">
+      <div class="max-w-6xl mx-auto text-center">
+        <h3 class="text-2xl font-semibold text-cyan-300 mb-12">
+          Our Headquarter
+        </h3>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-10">
+          <!-- Jakarta -->
+          <div
+            class="rounded-xl border border-gray-700 p-6 shadow-lg hover:shadow-cyan-500/50 transition duration-300"
+          >
+            <img
+              src="https://www.agoda.com/wp-content/uploads/2018/05/experience_indonesia_jakarta_monas.jpg"
+              alt="Jakarta"
+              class="w-32 h-32 rounded-full object-cover mx-auto mb-4"
+            />
+            <h4 class="text-lg font-semibold text-white">Jakarta</h4>
+            <p class="text-gray-400 text-sm">Capital & Main Office</p>
+          </div>
+          <!-- Bandung -->
+          <div
+            class="rounded-xl border border-gray-700 p-6 shadow-lg hover:shadow-cyan-500/50 transition duration-300"
+          >
+            <img
+              src="https://image.kkday.com/v2/image/get/w_960%2Cc_fit%2Cq_55%2Ct_webp/s1.kkday.com/product_263437/20241206021945_FC0lD/jpg"
+              alt="Bandung"
+              class="w-32 h-32 rounded-full object-cover mx-auto mb-4"
+            />
+            <h4 class="text-lg font-semibold text-white">Bandung</h4>
+            <p class="text-gray-400 text-sm">R&D Center</p>
+          </div>
+          <!-- Surabaya -->
+          <div
+            class="rounded-xl border border-gray-700 p-6 shadow-lg hover:shadow-cyan-500/50 transition duration-300"
+          >
+            <img
+              src="https://images.contentstack.io/v3/assets/blt1306150c2c4003bc/blt1e2bc98848db05ad/643621d60e08b210eca79c12/00-what-to-see-and-do-in-surabaya-adobe-cropped.jpg"
+              alt="Surabaya"
+              class="w-32 h-32 rounded-full object-cover mx-auto mb-4"
+            />
+            <h4 class="text-lg font-semibold text-white">Surabaya</h4>
+            <p class="text-gray-400 text-sm">Client Support</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="py-16 px-6 bg-gray-900">
+      <h3 class="text-2xl font-semibold mb-8 text-center text-cyan-400">
+        Message Us
+      </h3>
+      <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
+        <form
+          id="messageForm"
+          onsubmit="return validateForm()"
+          class="bg-gray-800 shadow-md rounded-lg p-8 space-y-6"
+        >
+          <div>
+            <label for="name" class="block mb-2 text-White-700">Nama</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Nama"
+              class="w-full p-3 bg-gray-900 rounded-lg focus:outline-none focus:ring focus:ring-blue-300"
+            />
+          </div>
+          <div>
+            <label for="birthdate" class="block mb-2 text-white-700"
+              >Tanggal Lahir</label
+            >
+            <input
+              type="date"
+              id="birthdate"
+              class="w-full p-3 bg-gray-900 rounded-lg focus:outline-none focus:ring focus:ring-blue-300"
+            />
+          </div>
+          <div>
+            <div>
+              <label class="block mb-2 text-white-700">Jenis Kelamin</label>
+              <div class="flex items-center space-x-6">
+                <label class="inline-flex items-center">
+                  <input
+                    type="radio"
+                    name="jenis-kelamin"
+                    value="Laki-Laki"
+                    class="form-radio text-blue-600"
+                  />
+                  <span class="ml-2 text-white-700">Laki-Laki</span>
+                </label>
+                <label class="inline-flex items-center">
+                  <input
+                    type="radio"
+                    name="jenis-kelamin"
+                    value="Perempuan"
+                    class="form-radio text-blue-600"
+                  />
+                  <span class="ml-2 text-white-700">Perempuan</span>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div>
+            <label for="message" class="block mb-2 text-white-700">Pesan</label>
+            <textarea
+              id="message"
+              placeholder="Pesan"
+              rows="4"
+              class="w-full p-3 bg-gray-900 rounded-lg focus:outline-none focus:ring focus:ring-blue-300"
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            class="bg-gray-900 text-white px-6 py-3 rounded-lg transition duration-300 ease-in-out hover:bg-blue-700 hover:shadow-[0_0_20px_4px_rgba(34,211,238,0.5)]"
+          >
+            Submit
+          </button>
+        </form>
+
+        <!-- Result -->
+        <div
+          id="formResult"
+          class="bg-gray-800 p-8 rounded-lg shadow text-gray-200 text-sm space-y-2"
+        >
+          <p><strong>Current Time:</strong> -</p>
+          <p><strong>Nama:</strong> -</p>
+          <p><strong>Tanggal Lahir:</strong> -</p>
+          <p><strong>Jenis Kelamin:</strong> -</p>
+          <p><strong>Pesan:</strong> -</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      class="bg-black text-gray-400 py-6 flex justify-between px-6 text-sm"
+    >
+      <p>© 2025 TechNova Solutions. All rights reserved.</p>
+      <p>Created By: Me</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
